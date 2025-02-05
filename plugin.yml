@@ -1,7 +1,7 @@
 name: ServerHelper
 main: ServerHelper\Main
 version: 1.2.0
-author: AMDISYES
+author: MeltIce
 api: 
 - 1.0.0
 - 2.0.0
