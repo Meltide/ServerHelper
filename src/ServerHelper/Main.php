@@ -8,7 +8,7 @@ namespace ServerHelper;
  * \__ \/ -_) '_\ V / -_) '_| __ / -_) | '_ \/ -_) '_|
  * |___/\___|_|  \_/\___|_| |_||_\___|_| .__/\___|_|  
  *                                     |_|            
- * ServerHelper by AMDISYES QQ:3480656548
+ * ServerHelper by MeltIce QQ:3480656548
  * 倒卖本插件死全家
  *
  */
@@ -45,7 +45,7 @@ class Main extends PluginBase implements Listener{
     $this->getServer()->getPluginManager()->registerEvents($this,$this);
     $this->getLogger()->info("§b=======================");
     $this->getLogger()->info("§a✔ServerHelper成功启用");
-    $this->getLogger()->info("§e作者:AMDISYES  QQ:3480656548");
+    $this->getLogger()->info("§e作者:MeltIce  QQ:3480656548");
     $this->getLogger()->info("§6访问我们的Github页面:https://github.com/Meltide/ServerHelper");
     $this->getLogger()->info("§c倒卖插件死全家");
     $this->getLogger()->info("§b=======================");
@@ -115,7 +115,7 @@ class Main extends PluginBase implements Listener{
           break;
         case "version":
           $sender->sendMessage("§bServerHelper 插件版本:1.2.0");
-          $sender->sendMessage("§b作者:AMDISYES  QQ:3480656548");
+          $sender->sendMessage("§b作者:MeltIce  QQ:3480656548");
           $sender->sendMessage(TextFormat::RED."倒卖本插件死全家");
           break;
         default:
