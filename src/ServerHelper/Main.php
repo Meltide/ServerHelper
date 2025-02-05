@@ -114,7 +114,7 @@ class Main extends PluginBase implements Listener{
           $sender->sendMessage(TextFormat::GREEN."重载配置文件完成");
           break;
         case "version":
-          $sender->sendMessage("§bServerHelper 插件版本:1.2.0");
+          $sender->sendMessage("§bServerHelper 插件版本:1.2.1");
           $sender->sendMessage("§b作者:MeltIce  QQ:3480656548");
           $sender->sendMessage(TextFormat::RED."倒卖本插件死全家");
           break;
